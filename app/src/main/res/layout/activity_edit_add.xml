@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditAddActivity"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Название"
+        android:layout_below="@id/idTextView"/>
+
+    <EditText
+        android:id="@+id/upcTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="UPC"
+        android:layout_below="@id/nameTextView"/>
+
+    <EditText
+        android:id="@+id/izgotTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/upcTextView"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Изготовитель" />
+
+    <EditText
+        android:id="@+id/cenaTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/izgotTextView"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Цена" />
+
+    <EditText
+        android:id="@+id/hranenyeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/cenaTextView"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Хранение" />
+
+    <EditText
+        android:id="@+id/kolTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@id/hranenyeTextView"
+        android:layout_marginBottom="20dp"
+        android:ems="10"
+        android:hint="Кол-во"
+        android:inputType="textMultiLine" />
+
+</RelativeLayout>

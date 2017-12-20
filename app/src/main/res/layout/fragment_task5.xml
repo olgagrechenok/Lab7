@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnCount="2"
+    tools:context="com.example.lab6.Task5Fragment"
+    android:padding="10dp">
+
+    <AutoCompleteTextView
+        android:id="@+id/prodEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_row="0"
+        android:ems="10"
+        android:hint="Производитель"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/suggest_button_text"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:background="@color/colorAccent"
+        android:onClick="onOKButtonClick"
+        android:layout_column="1"
+        android:layout_row="0"/>
+
+
+    <ListView
+        android:id="@+id/task5List"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_column="0"
+        android:layout_row="1"
+        android:layout_columnSpan="2"/>
+</GridLayout>
+

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\AndroidApplications\olya\Lab6\app\libs\json-simple-1.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5d6f9b6a9ddca2a28c0216cc44efb2e20d9c23b5">
+        <dex dex="D:\AndroidApplications\olya\Lab6\app\build\intermediates\pre-dexed\debug\json-simple-1.1.1_e95173d7f3246f6176e574597c0b68f60989a263.jar" />
+    </item>
+
+</items>

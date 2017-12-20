@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lab6.EditAddActivity">
+
+    <item
+        android:id="@+id/suggest_action"
+        android:title="@string/suggest_button_text"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/info_action"
+        android:title="@string/info1_item_text"
+        android:icon="@android:drawable/ic_menu_info_details"
+        app:showAsAction="never"/>
+
+</menu>

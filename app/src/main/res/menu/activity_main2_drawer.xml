@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/view"
+        android:icon="@android:drawable/star_big_off"
+        android:title="@string/view_item_text" />
+
+
+    <item
+            android:id="@+id/task1"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/task1_item_text" />
+        <item
+            android:id="@+id/task2"
+            android:icon="@android:drawable/ic_menu_search"
+            android:title="@string/task2_item_text" />
+
+    <item
+        android:id="@+id/task3"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/task3_item_text" />
+
+    <item
+        android:id="@+id/task4"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/task4_item_text" />
+
+    <item
+        android:id="@+id/task5"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/task5_item_text" />
+
+    <item
+        android:id="@+id/task6"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/task6_item_text" />
+
+            <item
+                android:id="@+id/info"
+                android:icon="@android:drawable/ic_menu_info_details"
+                android:title="@string/info_item_text" />
+            <item
+                android:id="@+id/exit"
+                android:icon="@drawable/exit_image"
+                android:title="@string/exit_item_text" />
+
+</menu>

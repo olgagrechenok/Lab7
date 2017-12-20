@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">PatientsBase 1.7</string>
+
+
+    <string name="exit_item_text">Exit</string>
+    <string name="task1_item_text">Task1</string>
+    <string name="task2_item_text">Task2</string>
+    <string name="task3_item_text">Task3</string>
+    <string name="task4_item_text">Task4</string>
+    <string name="task5_item_text">Task5</string>
+    <string name="task6_item_text">Task6</string>
+    <string name="view_item_text">View</string>
+    <string name="info_item_text">About</string>
+    <string name="info1_item_text">Info</string>
+
+
+    <string name="main_activity_title">PatientsBase</string>
+    <string name="suggest_button_text">OK</string>
+    <string name="add_button_text">Add</string>
+    <string name="home_button_text">Home</string>
+    <string name="diagnosis_input_hint">diagnosis</string>
+    <string name="min_value_input_hint">min</string>
+    <string name="max_value_input_hint">max</string>
+    <string name="name_hint">Name</string>
+    <string name="surname_hint"><b>Surname</b></string>
+    <string name="patronumic_hint">Patronumic</string>
+    <string name="birthday_hint">Birthday</string>
+    <string name="card_number_hint">Card Number</string>
+    <string name="diagnosis_hint">Diagnosis</string>
+    <string name="cancel_button_text">Cancel</string>
+    <string name="menu_button_text">Menu</string>
+    <string name="card_number_field_error">wrong card number value</string>
+    <string name="label_text"><b>Card Number</b> range</string>
+
+
+    <string name="hello_blank_fragment">Welcome!\nIt is start page</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
